@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DUCK HUNT: THE RECKONING (Psyche! Edition)</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="game-root">
+      <canvas id="game" width="256" height="240"></canvas>
+
+      <!-- HUD overlay -->
+      <div id="hud">
+        <div class="row">
+          <span id="round">R=0</span>
+          <span id="score">SCORE 0</span>
+          <span id="lives">❤❤❤</span>
+        </div>
+        <div class="row small" id="help">Mouse: aim • Click: shoot • P: pause • ESC: quit</div>
+        <div id="hitflash">HIT</div>
+        <div id="contractor" class="textbox hidden">He's just a contractor. Leave him alone.</div>
+      </div>
+
+      <!-- Title screen -->
+      <div id="title" class="screen show">
+        <div class="logo">DUCK HUNT</div>
+        <div class="subtitle">THE RECKONING — Psyche! Edition</div>
+        <div class="highscores">
+          <div class="hs-title">HIGH SCORES</div>
+          <ul>
+            <li>1. Quackinator .......... 999,990</li>
+            <li>2. Duck Norris .......... 777,770</li>
+            <li>3. Howard T. D. ......... 555,550</li>
+            <li>4. Mallard Marx ......... 444,440</li>
+            <li>5. Bill O'Wings ......... 333,330</li>
+          </ul>
+        </div>
+        <div class="prompt">Click to start</div>
+        <div class="disclaimer">Parody fan work. Not affiliated with Nintendo.</div>
+      </div>
+
+      <!-- Game Over screen -->
+      <div id="gameover" class="screen hidden">
+        <div class="logo small">GAME OVER</div>
+        <div class="go-dog">The dog shrugs. The ducks point and laugh.</div>
+        <div class="scoreline">FINAL SCORE: <span id="finalscore">-0</span></div>
+        <div class="prompt">Press Enter or Click to suffer again</div>
+      </div>
+
+      <!-- Pause screen -->
+      <div id="pause" class="screen hidden">
+        <div class="logo small">PAUSED</div>
+        <div class="prompt">Press P to resume</div>
+      </div>
+
+      <!-- CRT overlay (non-optional) -->
+      <div id="crt">
+        <div class="scanlines"></div>
+        <div class="vignette"></div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+  </html>
+
+

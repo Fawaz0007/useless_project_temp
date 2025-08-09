@@ -59,14 +59,9 @@ Controls: Mouse to aim, Click to shoot, P to pause/resume, ESC to end game.
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](docs/screen-title.png)
-Title screen with highscores, parody disclaimer, and “Click to start” prompt.
-
-![Screenshot2](docs/screen-gameplay.png)
-Gameplay showing ducks in flight, crosshair, HUD (round/score/lives), and yolk splats.
-
-![Screenshot3](docs/screen-gameover.png)
-Game Over screen with the dog’s classic shrug and final score.
+<img width="1440" height="900" alt="Screen Shot 2025-08-09 at 6 52 30 AM" src="https://github.com/user-attachments/assets/51505423-fd3b-49a7-af1b-a00fe42d53f8" />
+<img width="1440" height="900" alt="Screen Shot 2025-08-09 at 6 52 47 AM" src="https://github.com/user-attachments/assets/0256a126-90c4-4bf3-907a-4d62e49823ea" />
+<img width="1440" height="900" alt="Screen Shot 2025-08-09 at 6 53 04 AM" src="https://github.com/user-attachments/assets/31b9d66d-5ef9-4d28-92d5-a3a12c7a62bb" />
 
 # Diagrams
 ![Workflow](docs/architecture.png)
@@ -77,8 +72,11 @@ Not applicable
 
 ### Project Demo
 # Video
-Coming soon
-Brief playthrough showing title, escalating rounds, taunts, egg hits, pause/resume, and game over.
+
+
+https://github.com/user-attachments/assets/a6283f18-eb09-48dc-bc1a-0eac0959fc68
+
+
 
 # Additional Demos
 N/A
